@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Меню кофейни"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewMenu"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btnMyOrders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Мои заказы (Статус)"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnLoyaltyCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Моя карта лояльности"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnGoToCart"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Перейти в корзину"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnBackToRoles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сменить роль (Назад)"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
